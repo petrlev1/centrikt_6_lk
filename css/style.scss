@@ -26,7 +26,7 @@ body {
 a {text-decoration: none; color: #2D547D; border-style: none; }
 a:hover {text-decoration: none; }
 
-.content {
+.content { 
     position: relative;
     width: 90%;
     min-width: 900px;
@@ -34,8 +34,8 @@ a:hover {text-decoration: none; }
     left: 0;
     right: 0;
     margin-left: auto;
-    margin-right: auto;
-    padding: 0 0 100px 0;
+    margin-right: auto; margin-top: 40px;
+    
 }
 
 .content_index { width: 50%; }
@@ -46,7 +46,7 @@ a:hover {text-decoration: none; }
 
 .in_right_cont {position: absolute; right: 0; top: 0; width: 37%; padding: 15px 15px; background-color: #e8e9eb; @include border-radius(8px);}
 
-h2 { font-size: 25px; margin-bottom: 30px;}
+h2 { font-size: 25px; margin-bottom: 30px; margin-top: 0;}
 
 .head { position: relative; min-width: 900px; height: 47px; color: #FFF3B8; background-color: #2D547D; text-align: left; font-size: 14px;
     @include box-shadow2(0 0 10px rgba(99,123,219,0.5));
@@ -63,7 +63,7 @@ nav a { padding: 13px 10px;
     &:hover{text-decoration: underline;}}
 nav .menu_lines2 { width: 1px; height: 32px; padding: 0 0; background-image: url(img/menu_lines2.png);}
 
-.box1 { width: 100%; background-color: #fff;
+.box1 { width: 100%; background-color: #fff; margin-bottom: 20px;
     border-top-left-radius: 5px; border-top-right-radius: 5px; 
     @include box-shadow1(0 0 10px rgba(150,167,183,0.5));
     li { list-style: none; padding: 10px 10px; }
@@ -80,7 +80,7 @@ nav .menu_lines2 { width: 1px; height: 32px; padding: 0 0; background-image: url
     }          
 }
 
-.box1_width { width: 25%;}
+.box1_width { width: 30%;}
 
 .table2 { @extend .box1_table; font-size: 12px;
     li { border-width: 1px; border-color: #c3cace; border-style: solid; padding: 9px 9px; }
@@ -142,7 +142,7 @@ nav .menu_lines2 { width: 1px; height: 32px; padding: 0 0; background-image: url
 
 
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1150px) {
     
     .box1 { li {padding: 5px 6px;}}
     

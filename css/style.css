@@ -22,7 +22,7 @@ a:hover {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 0 100px 0; }
+  margin-top: 40px; }
 
 .content_index {
   width: 50%; }
@@ -48,7 +48,8 @@ a:hover {
 
 h2 {
   font-size: 25px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-top: 0; }
 
 .head {
   position: relative;
@@ -105,6 +106,7 @@ nav .menu_lines2 {
 .box1 {
   width: 100%;
   background-color: #fff;
+  margin-bottom: 20px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   -webkit-box-shadow: 0 0 10px rgba(150, 167, 183, 0.5);
@@ -146,7 +148,7 @@ nav .menu_lines2 {
       text-align: left; }
 
 .box1_width {
-  width: 25%; }
+  width: 30%; }
 
 .table2, .table_green {
   font-size: 12px; }
@@ -285,7 +287,7 @@ nav .menu_lines2 {
   font-size: 19px;
   border-bottom: 1px #2D547D dashed; }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1150px) {
   .box1 li {
     padding: 5px 6px; }
 
