@@ -22,7 +22,7 @@ a:hover {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px; }
+  margin-top: 20px; }
 
 .content_index {
   width: 50%; }
@@ -32,7 +32,8 @@ a:hover {
   width: 48%; }
 
 .in_cont {
-  width: 60%; }
+  width: 60%;
+  margin-top: 50px; }
 
 .in_right_cont {
   position: absolute;
@@ -74,6 +75,9 @@ nav {
   background-image: url(img/menu_lines.png);
   background-position: center;
   background-repeat: repeat-x; }
+  nav .active-it {
+    color: black;
+    font-weight: bold; }
 
 nav ul {
   width: 600px;
@@ -193,14 +197,18 @@ nav .menu_lines2 {
   margin-top: 3px; }
 
 .note1_red {
-  color: #FF543F;
-  font-size: 9px;
-  padding-top: 20px;
-  text-align: center; }
+  color: #FF543F; }
 
 .note1_suc {
   color: #41992E;
   margin-top: 5px; }
+
+.note2, .note2_error {
+  font-size: 12px;
+  margin-top: 2px; }
+
+.note2_error {
+  color: #FF543F; }
 
 .box1 input, .box1_selectmenu {
   width: 97%; }
@@ -286,6 +294,25 @@ nav .menu_lines2 {
 .t1 {
   font-size: 19px;
   border-bottom: 1px #2D547D dashed; }
+
+.help-block2 {
+  font-size: 13px;
+  color: #4D4D4D;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background-color: #DFEBF7;
+  border-left: 3px #2D547D solid; }
+
+.ic_que {
+  display: block;
+  float: right;
+  width: 21px;
+  height: 21px;
+  background: url(img/ic_que.png) no-repeat;
+  background-size: contain; }
+
+.hover_win {
+  font-size: 12px; }
 
 @media screen and (max-width: 1150px) {
   .box1 li {
